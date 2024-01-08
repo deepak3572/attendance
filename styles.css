@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.hero {
+    background: #f2f2f2;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    margin-bottom: 20px;
+}
+
+/* Add more styles as needed */
+
+/* Responsive Navigation */
+@media only screen and (max-width: 768px) {
+    nav ul {
+        display: none;
+    }
+
+    nav.active ul {
+        display: block;
+        width: 100%;
+        text-align: center;
+        background: #333;
+        position: absolute;
+        top: 60px;
+        left: 0;
+    }
+    
+    nav.active ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .burger-menu {
+        display: block;
+        cursor: pointer;
+        float: right;
+        font-size: 20px;
+        margin-top: 15px;
+    }
+}
+/* Add any additional styles for the student login page here */
+
+.student-login {
+    background: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.student-login form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.student-login label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.student-login input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+}
+
+.student-login button {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.student-login button:hover {
+    background: #555;
+}
+/* Add any additional styles for the attendance section here */
+
+.attendance-section {
+    background: #f2f2f2;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#studentNameInput {
+    margin-bottom: 20px;
+}
+
+#studentNameInput label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#studentNameInput input {
+    padding: 10px;
+}
+
+#studentNameInput button {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#studentNameInput button:hover {
+    background: #555;
+}
+
+#attendanceTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#attendanceTable th, #attendanceTable td {
+    padding: 10px;
+    border: 1px solid #333;
+}
+
+#attendanceTable th {
+    background: #333;
+    color: #fff;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Computer Academy</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">ITCT Computer Academy</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="burger-menu" onclick="toggleMenu()">&#9776;</div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Welcome to Your Computer Academy</h1>
+            <p>Empowering minds through technology education.</p>
+        </div>
+    </section>
+    <!-- <section class="student-login">
+        <div class="container">
+            <h2>Student Login</h2>
+            <form id="studentLoginForm">
+                <label for="studentUsername">Username:</label>
+                <input type="text" id="studentUsername" name="studentUsername" required>
+                
+                <label for="studentPassword">Password:</label>
+                <input type="password" id="studentPassword" name="studentPassword" required>
+                
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </section> -->
+    <section class="attendance-section">
+        <div class="container">
+            <h2>Attendance Section</h2>
+            <div id="studentNameInput">
+                <label for="studentName">Enter Your Name:</label>
+                <input type="text" id="studentName" placeholder="Your Name">
+                <button onclick="addStudent()">Add Attendance</button>
+            </div>
+            <table id="attendanceTable">
+                <!-- Attendance table will be dynamically updated here -->
+            </table>
+        </div>
+    </section>
+    <!-- Add more sections and content as needed -->
+
+    <script src="script.js"></script>
+</body>
+</html>
